@@ -1,0 +1,3 @@
+# this is a chess game program
+# compile all java files (javac *.java)
+# fire off the program by execute GameStart (java GameStart) 
