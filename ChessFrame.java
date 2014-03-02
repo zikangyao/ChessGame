@@ -271,7 +271,7 @@ class ChessFrame extends JFrame{
 				}else if(checkType == ChessPiece.HUMAN){
 					nextAction = JOptionPane.showConfirmDialog(ChessPanel.this,"You Won! Play again?","Tik Tok Game",JOptionPane.YES_NO_OPTION);
 				}else{
-					nextAction = JOptionPane.showConfirmDialog(ChessPanel.this,"Game Draw! Play again?","Tik Tok Game",JOptionPane.YES_NO_OPTION);
+					nextAction = JOptionPane.showConfirmDialog(ChessPanel.this,"Game Tie! Play again?","Tik Tok Game",JOptionPane.YES_NO_OPTION);
 				}
 
 				if (nextAction == 0){
